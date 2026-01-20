@@ -37,9 +37,10 @@ public class SpriteChanger : MonoBehaviour
             spriteRenderer.color = Color.white;
         }
 
-        if (Mouse.current.leftButton.wasPressedThisFrame && Pibbles.Count > 0)
+        if (Mouse.current.leftButton.wasPressedThisFrame && Pibbles.Count > 1)
         {
             Pibbles.RemoveAt(0);
+            randomNumber = Random.Range(0, Pibbles.Count);
         }
     }
 
