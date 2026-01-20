@@ -243,6 +243,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1886940263}
   colorwheel: {r: 0.17814128, g: 0.6981132, b: 0.16135636, a: 1}
+  Pibble: {fileID: 21300000, guid: 0eebbab0a8cbf8749a181de24d2c0e6c, type: 3}
+  Burger: {fileID: -4983824833735821762, guid: 12fc3dbc26873dd42a47584b921ab93e, type: 3}
+  Fire: {fileID: -4151151993110562918, guid: ad5584d014c3ebc4e80e226f37e576f7, type: 3}
+  randomNumber: 0
 --- !u!212 &1886940263
 SpriteRenderer:
   m_ObjectHideFlags: 0
