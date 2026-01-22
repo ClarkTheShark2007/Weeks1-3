@@ -25,7 +25,7 @@ public class EyePulse : MonoBehaviour
             transform.localScale = Vector3.one * PulseCurve.Evaluate(PulseTime); //Pulse effect created by chaning the local scale of the whole object
         } else
         {
-            PulseTime -= PulseSpeed * Time.deltaTime;
+            PulseTime -= 1f * Time.deltaTime;
             if(PulseTime < 0)
             {
                 PulseTime = 0;
