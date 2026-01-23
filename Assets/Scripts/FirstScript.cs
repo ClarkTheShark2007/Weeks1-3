@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class FirstScript : MonoBehaviour
 {
+    public SpriteRenderer Body;
     public float movement = 0f;
 
     Vector2 bottomLeft;
@@ -10,8 +11,8 @@ public class FirstScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        movement = Random.Range(0.1f, 5f);
-        transform.position = (Vector2)transform.position + Random.insideUnitCircle * 5;
+        //movement = Random.Range(0.1f, 5f);
+        //transform.position = (Vector2)transform.position + Random.insideUnitCircle * 5;
 
         bottomLeft = Camera.main.ScreenToWorldPoint(new Vector2(0,0));
         topRight = Camera.main.ScreenToWorldPoint(new Vector2(Screen.width, Screen.height));

@@ -13,6 +13,7 @@ public class SpriteChanger : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        //spriteRenderer = GetComponent<SpriteRenderer>();
         //spriteRenderer.color = Color.green;
         pickARandomSprite();
         randomNumber = Random.Range(0, Pibbles.Count);
